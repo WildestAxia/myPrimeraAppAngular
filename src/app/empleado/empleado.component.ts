@@ -14,7 +14,7 @@ export class EmpleadoComponent implements OnInit {
 
   edad = 18;
 
-  //empresa = "Tu madre Calva";
+  empresa = "Tu madre es calva";
 
   habilitacionCuadro = false;
 
@@ -47,6 +47,7 @@ export class EmpleadoComponent implements OnInit {
       this.textoDeRegistro="No hay nadie registrado"
     }
   }
+
 
 
 }
